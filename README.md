@@ -1,5 +1,7 @@
 # DGL-104_Community_code
 DGL 104 App Dev Foundations Winter 2023 
+
+This is my commuinty code project repository.
 ## Community Code project
 
 Chosen Community : [CODERANCH](https://coderanch.com/)
@@ -162,4 +164,4 @@ First, I read input from the user.I created a Scanner object named "input" to re
 
 **Reflection on Community code**
 
- Almost all the questions in my community are answered instantly. I have only a very few questions to answer. However, joining this community enhanced my knowledge of the Java programming language by trying to understand different issues from the conversations in the community.
+ I contributed to the community I choose by resolving unsolved queries. Almost all the questions in my community are answered instantly since the community is very active. I had got only a very few questions to answer. I have resolved those question, those were challenging for me since I have no strong knoweldege in Java. I first figured out the logic and then tried to write the code. Finally, I managed to resolve the queztions. However, joining this community enhanced my knowledge of the Java programming language by trying to understand different issues from the conversations in the community.
