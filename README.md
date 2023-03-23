@@ -4,7 +4,9 @@ DGL 104 App Dev Foundations Winter 2023
 
 Chosen Community : [CODERANCH](https://coderanch.com/)
 
-**Issue of Interest:**
+I like to contribute to the community by resolving unsolved queries and planning to answer the question for me and the instructor.
+
+**Issue of Interest:1**
 
   [Write a Java program that prompts the user to enter an account number. Display whether the number is valid or invalid according to the given situations.](https://coderanch.com/t/756159/java/Java-simple)
 
@@ -107,6 +109,45 @@ public class ValidateAccountNumber
 }
 
   ```
-  **Explanation:**
+  **Code Explanation:**
 
   In this program, I first prompt the user to enter an account number using the Scanner class. Then I initialized a boolean variable called isValid to true, assuming that the account number is valid. Then I applied the conditions described one by one to check whether the account number was valid or not. First, I check the account number, which must have 16 characters. If it doesn't, isValid is set to false. Next, I checked that the first two characters of the account number are capital letters, with the first letter being lower than the second letter in ASCII value. If they're not, isValid is set to false. Then I checked that the third and fourth characters of the account number are prime numbers. If they're not, isValid is set to false. Then for the remaining 12 digits, calculate the sum of the digits in even positions of the account number, first doubling every second digit from right to left. If doubling a digit results in a two-digit number, add up the two digits to get a single-digit number. The sum of these digits is stored in a variable called sumEven. Then it calculates the sum of the digits in the odd positions of the account number and stores the sum in a variable called sumOdd. Finally, the program checks whether the sum of sumEven and sumOdd is divisible by 10. If the resulting sum is not divisible by 10, isValid is set to false.If all of the checks pass, the program displays a message indicating that the account number is valid. If any of the checks fail, the program displays a message indicating that the account number is invalid.
+
+
+
+
+
+**Issue of Interest:2**
+
+[Write a Java program that reads from the user a real number that
+represents the length of the side opposite the 30 degree angle in 30-60-90 triangle.
+The program then calculates and prints the area of this triangle
+(rounded to 2 decimal places) according to the following formula:
+area = 1/2 (√3 𝑥^2)](https://coderanch.com/t/754759/java/Java-Program-Practice)
+
+**My Contribution:**
+
+```
+import java.util.Scanner;
+
+public class TriangleArea 
+{
+    public static void main(String[] args) 
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the length of the opposite side ");/*length of the shorter side*/
+        double oppositeSide = input.nextDouble();
+        double area = 0.5 * Math.sqrt(3) * Math.pow(oppositeSide, 2);
+        System.out.printf("The area of the triangle is %.2f\n", area);
+    }
+}
+
+
+```
+**Code Explanation:**
+
+
+
+**Reflection on Community code**
+
+ Almost all the questions in my community are answered instantly. I have only a very few questions to answer. However, joining this community enhanced my knowledge of the Java programming language by trying to understand different issues from the conversations in the community.
