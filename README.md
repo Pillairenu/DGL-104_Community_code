@@ -14,7 +14,7 @@ I like to contribute to the community by resolving unsolved queries and planning
 
   **My Contribution:**
 
-  ```
+  ```java
 import java.util.Scanner;
 
 public class ValidateAccountNumber
