@@ -130,7 +130,7 @@ area = 1/2 (√3 𝑥^2)](https://coderanch.com/t/754759/java/Java-Program-Pract
 ```
 import java.util.Scanner;
 
-public class TriangleArea 
+public class Area 
 {
     public static void main(String[] args) 
     {
@@ -144,8 +144,20 @@ public class TriangleArea
 
 
 ```
+** Explanation:**
+
+In a 30-60-90 triangle, the sides are in the ratio of 1:sqrt(3):2, where the hypotenuse is twice the length of the shorter side.Let assume the length of the side opposite to 30 is "x".Then, the length of the side opposite to the 60-degree angle is sqrt(3)x, and the length of the hypotenuse (opposite to the 90-degree angle) is 2x.
+The area of the triangle is calculated using the formula:
+
+Area = (base x height)/2
+
+For 30-60-90 triangle the area is calculated using, 
+
+Area =  (1/2)*(sqrt(3)x)*2x =.5*sqrt(3)*x^2
+
 **Code Explanation:**
 
+First, I read input from the user.I created a Scanner object named "input" to read user input.Then I prompt the user to enter the length of the side opposite the 30 degree angle in the 30-60-90 triangle and read the input as a double using the nextDouble() method.Then I calculate the area of the triangle using the given formula, which involves taking the square root of 3, multiplying it by the square of the opposite side length, and dividing by 2.Then I used the printf() method to print the calculated area to two decimal places. The %.2f format specifier is to print a floating-point number with two decimal places.
 
 
 **Reflection on Community code**
