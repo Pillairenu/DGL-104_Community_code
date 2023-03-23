@@ -129,7 +129,7 @@ area = 1/2 (√3 𝑥^2)](https://coderanch.com/t/754759/java/Java-Program-Pract
 
 **My Contribution:**
 
-```
+```java
 import java.util.Scanner;
 
 public class Area 
