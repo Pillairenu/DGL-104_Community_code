@@ -144,7 +144,7 @@ public class Area
 
 
 ```
-** Explanation:**
+**Explanation:**
 
 In a 30-60-90 triangle, the sides are in the ratio of 1:sqrt(3):2, where the hypotenuse is twice the length of the shorter side.Let assume the length of the side opposite to 30 is "x".Then, the length of the side opposite to the 60-degree angle is sqrt(3)x, and the length of the hypotenuse (opposite to the 90-degree angle) is 2x.
 The area of the triangle is calculated using the formula:
